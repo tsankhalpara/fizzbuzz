@@ -1,4 +1,4 @@
-def fizzbuzz
+def fizzbuzz(n)
   1.upto(20) do |n|
     if n % 3 == 0 and n % 5 == 0
       puts "FizzBuzz"
